@@ -5,6 +5,10 @@ package Rumus;
 //Kelas :4B
 
 public class Rumus {
+    private int sisi;
+            int panjang;
+            int lebar;
+            int hasil;
     
     
 }
