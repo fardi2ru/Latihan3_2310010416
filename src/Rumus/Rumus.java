@@ -10,12 +10,24 @@ public class Rumus {
             int lebar;
             int hasil;
             
+            public rumus(int sisi, int panjang, int lebar, int hasil){
+                this.sisi = 0;
+                this.panjang = 0;
+                this.lebar = 0;
+                this.hasil = 0;
+            }
+            
     public int setLuasPersegi(int sisi){
-        return sisi * sisi;
+        this.sisi = sisi;
+        this.hasil = sisi * sisi;
+        return this.hasil;
     }
     
     public int setLuasPersegiPanjang(int panjang, int lebar){
-        return panjang * lebar;
+        this.panjang = panjang;
+        this.lebar = lebar;
+        this.hasil = panjang * lebar;
+        return this.hasil;
     }
     
     
