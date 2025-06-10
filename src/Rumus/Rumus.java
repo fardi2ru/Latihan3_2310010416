@@ -10,7 +10,7 @@ public class Rumus {
             int lebar;
             int hasil;
             
-            public rumus(int sisi, int panjang, int lebar, int hasil){
+            public Rumus(int sisi, int panjang, int lebar,int hasil){
                 this.sisi = 0;
                 this.panjang = 0;
                 this.lebar = 0;
@@ -27,6 +27,10 @@ public class Rumus {
         this.panjang = panjang;
         this.lebar = lebar;
         this.hasil = panjang * lebar;
+        return this.hasil;
+    }
+    
+    public int getHasil(){
         return this.hasil;
     }
     
