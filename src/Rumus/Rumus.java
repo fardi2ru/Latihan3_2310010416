@@ -9,6 +9,14 @@ public class Rumus {
             int panjang;
             int lebar;
             int hasil;
+            
+    public int setLuasPersegi(int sisi){
+        return sisi * sisi;
+    }
+    
+    public int setLuasPersegiPanjang(int panjang, int lebar){
+        return panjang * lebar;
+    }
     
     
 }
